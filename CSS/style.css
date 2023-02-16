@@ -1,0 +1,230 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---- HEADER STYLING ----*/
+.nav {
+    display: flex;  
+    flex-direction: row;
+    width: auto;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.nav-header {
+    color: black;
+    margin-top: 15px;
+    padding: 25px;
+}
+
+a.header:hover {
+    border-radius: 15px;
+}
+
+div.nav-buttons {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 40vw;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-left: 650px;
+    list-style-type: none;
+}
+
+
+
+.link-item {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}  
+
+
+.header {
+    padding: 15px;
+    font-size: 36PX;
+    text-decoration: none;
+    color: black;
+}
+
+.Start {
+    margin: auto;
+    width: auto;
+}
+
+#add-product-btn {
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#add-product-btn:hover {
+    color: white;
+    background-color: #007fff;
+}
+
+#delete-product-btn {
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#delete-product-btn:hover {
+    color: white;
+    background-color: #DA012D;
+}
+
+.linebreak {
+    margin: 0px 180px;
+}
+
+/*---- PRODUCT LIST STYLING ----*/
+.container {
+    margin: 0px 200px 0px 200px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+li  {
+list-style: none;
+}
+
+input[type=checkbox] {
+    margin: 5px;
+}
+
+.product-info {
+    margin: 17px;
+    text-align: center;
+}
+
+.product-table {
+    width: 200px;
+    position: relative;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.product-table:hover {
+    color: white;
+    background-color: rgb(54, 69, 79);
+}
+
+.product-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.product-atr {
+    
+    padding-bottom: 2px;
+}
+
+.checked {
+    color: white;
+    background-color: rgb(61, 12, 2);
+}
+
+.shiftLeft{
+    translate: translateX(200px);
+}
+
+
+/*---- PRODUCT FORM STYLING ----*/
+#product_form {
+  display: flex;
+  flex-direction: column; 
+  height: 500px;
+  width: 300px;
+  margin: 50px auto;
+  box-shadow: 5px 10px 8px #888888;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.form_header {
+    margin: 0;
+    padding: 0 0px 15px 0;
+}
+
+.form_buttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+input[type=button] {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px 0 0;
+}
+
+.submit:hover {
+    background-color: #007fff;
+    color: white;
+}
+
+.cancel:hover {
+    background-color: #DA012D;
+    color: white;
+}
+
+
+input[type=text] {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 3px;
+}
+
+input[type=submit] {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px 0 0;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+:-moz-placeholder {
+font-style: italic;  
+}
+::-moz-placeholder {
+font-style: italic;  
+}
+:-ms-input-placeholder {  
+font-style: italic; 
+}
+
+.errors {
+    color: red;
+    font-style: italic;
+}
+
+.select-type {
+    font-style: italic;
+}
